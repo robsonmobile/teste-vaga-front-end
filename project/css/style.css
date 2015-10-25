@@ -1,0 +1,333 @@
+body{
+	display:none;
+	margin: 0px;
+	color: #333;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.top{
+	width: 100%;
+	background: #333;
+}
+
+.container{
+	margin: 0 auto;
+	text-align: center;
+	width: 960px;
+}
+
+.top-container{
+	height: 150px;
+}
+
+.action-container{
+	height: 540px;
+}
+
+.info-left{
+	float: left;
+	padding-top: 61px;
+	width: 403px;
+	height: 89px;
+	font-size: 25px;
+	color: #fff;
+	text-align: right;
+}
+
+.info-right{
+	float: left;
+	padding-top: 52px;
+	width: 403px;
+	height: 98;
+	color: #fff;
+	text-align: left;
+	font-size: 25px;
+}
+
+.counter{
+	color: #8bc34a;
+	font-size: 35px;
+}
+
+.wine-h24{
+	float: left;
+	width: 154px;
+	height: 150px;
+}
+
+.circle{
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 110px;
+	height: 110px;
+	background: #fff;
+	border-radius: 55px;
+}
+
+.h24{
+	padding-top: 24px;
+	font-size: 35px;
+}
+
+.wine{
+	font-size: 20px;
+	color: #6a1a99;
+}
+
+.action{
+	width: 100%;
+	height: 640px;
+	background-image: url('../img/back.gif');
+	background-repeat: repeat-x;
+	text-align: center;
+}
+
+.wine-about{
+	float: left;
+	width: 305px;
+	padding-top: 75px;
+}
+
+.wine-title{
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.wine-flag{
+	margin-top: 50px;
+	font-size: 20px;
+}
+
+.img-flag{
+	vertical-align:middle;
+	margin-bottom: 4px;
+	margin-right: 5px;
+}
+
+.wine-info{
+	margin: 0 auto;
+	width: 112px;
+	height: 82px;
+	margin-top: 50px;
+	font-size: 12px;
+	line-height: 15px;
+	font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	background-image: url('../img/info.png');
+}
+
+.b-points{
+	margin-top: 20px;
+}
+
+.text-gray{
+	color: #868686;
+}
+
+.wine-promo{
+	float: left;
+	width: 350px;
+}
+
+.div-promo{
+	position: absolute;
+	z-index: 10;
+	width: 90px;
+	height: 74px;
+	margin-top: 319px;
+	margin-left: 195px;
+	padding-top: 16px;
+	color: #fff;
+	background: #0097a7;
+	border-radius: 45px;
+}
+
+.promo-30{
+	font-size: 30px;
+}
+
+.promo-off{
+	font-size: 20px;
+}
+
+.wine-price{
+	float: left;
+	margin-top: 146px;
+}
+
+.wine-club{
+	font-size: 20px;
+}
+
+.wine-form{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	height: 48px;
+}
+
+.form-text{
+	float: left;
+	width: 60px;
+	margin-right: 15px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: center;
+	color: #333;
+	font-size: 18px;
+	font-family: Verdana, Segoe, sans-serif;
+
+	background: #efefef;
+	background: -moz-linear-gradient(top,  #efefef 0%, #ffffff 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#efefef), color-stop(100%,#ffffff));
+	background: -webkit-linear-gradient(top,  #efefef 0%,#ffffff 100%);
+	background: -o-linear-gradient(top,  #efefef 0%,#ffffff 100%);
+	background: -ms-linear-gradient(top,  #efefef 0%,#ffffff 100%);
+	background: linear-gradient(to bottom,  #efefef 0%,#ffffff 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efefef', endColorstr='#ffffff',GradientType=0 );
+
+	border: 1px solid #CCC;
+	border-radius: 8px;
+}
+
+.form-text:focus{
+	outline: none;
+}
+
+.btn-add{
+	float: left;
+	width: 200px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	color: #fff;
+	font-size: 18px;
+	font-family: Verdana, Segoe, sans-serif;
+
+	background: #87d700;
+	background: -moz-linear-gradient(top, #87d700 0%, #609e00 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #87d700), color-stop(100%,#609e00));
+	background: -webkit-linear-gradient(top, #87d700 0%, #609e00 100%);
+	background: -o-linear-gradient(top, #87d700 0%, #609e00 100%);
+	background: -ms-linear-gradient(top, #87d700 0%, #609e00 100%);
+	background: linear-gradient(to bottom, #87d700 0%,#609e00 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87d700', endColorstr='#609e00',GradientType=0 );
+
+	border: 1px solid #6aaf00;
+	border-radius: 8px;
+}
+
+.btn-add:hover{
+	cursor: pointer;
+	background: #94ea00;
+	background: -moz-linear-gradient(top, #94ea00 0%, #6cb400 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #94ea00), color-stop(100%,#6cb400));
+	background: -webkit-linear-gradient(top, #94ea00 0%,#6cb400 100%);
+	background: -o-linear-gradient(top, #94ea00 0%, #6cb400 100%);
+	background: -ms-linear-gradient(top, #94ea00 0%, #6cb400 100%);
+	background: linear-gradient(to bottom, #94ea00 0%, #6cb400 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#94ea00', endColorstr='#6cb400',GradientType=0 );
+}
+
+.btn-add:active{
+	background: #6cb400;
+	background: -moz-linear-gradient(top, #6cb400 0%, #94ea00 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #6cb400), color-stop(100%,#94ea00));
+	background: -webkit-linear-gradient(top, #6cb400 0%, #94ea00 100%);
+	background: -o-linear-gradient(top, #6cb400 0%, #94ea00 100%);
+	background: -ms-linear-gradient(top, #6cb400 0%, #94ea00 100%);
+	background: linear-gradient(to bottom, #6cb400 0%, #94ea00 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6cb400', endColorstr='#94ea00',GradientType=0 );
+}
+
+.a-price{
+	font-size: 18px;
+}
+
+.b-price{
+	font-size: 40px;
+	margin-top: 10px;
+}
+
+.img-wine{
+	margin-top: 30px;
+}
+
+.info{
+	margin: 0 auto;
+	width: 960px;
+	min-height: 100px;
+	margin-bottom: 40px;
+	overflow: hidden;
+}
+
+.info-title{
+	height: 52px;
+	padding-top: 13px;
+	font-size: 40px;
+	color: #8c3f72;
+}
+
+.service{
+	float: left;
+	width: 445px;
+	margin-right: 35px;
+}
+
+.sommelier{
+	float: left;
+	width: 445px;
+	margin-left: 35px;
+}
+
+.footer{
+	width: 100%;
+	height: 60px;
+	padding-top: 40px;
+	background: #f3f3f3;
+	color: #525252;
+	font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	font-size: 20px;
+}
+
+.info-service, .info-sommelier{
+	margin-top: 60px;
+}
+
+li{
+	margin-bottom: 35px;
+}
+
+.li-title{
+	font-size: 27px;
+	color: #535353;
+}
+
+.ol-info{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+.li-info{
+	line-height: 25px;
+	font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	color: #868686;
+	margin-top: 7px;
+	margin-left: 51px;
+}
+
+.ol-info li{
+	counter-increment: step-counter;
+}
+
+.ol-info li::before{
+	content: counter(step-counter);
+	float: left;
+	width: 30px;
+	padding-top: 8px;
+	padding-bottom: 3px;
+	margin-right: 22px;
+	text-align: center;
+	font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	font-size: 15px;
+	color: #fff;
+	background: #ccc;
+}
